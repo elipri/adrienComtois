@@ -19,7 +19,7 @@
       href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100&display=swap"
       rel="stylesheet"
     />
-    <title>Products</title>
+    <title>One product</title>
     <!-- minu CSS -->
     <link rel="stylesheet" href="style/html5reset-1.6.1.css" />
     <link rel="stylesheet" href="style/style.css" />
@@ -28,9 +28,9 @@
   <body>
     <nav>
       <ul>
-        <li><a href="" class="active">Products</a></li>
-        <li><a href="">Environment</a></li>
-        <li><a href="">About</a></li>
+        <li><a href="products.html" class="active">Products</a></li>
+        <li><a href="environment.html">Environment</a></li>
+        <li><a href="about.html">About</a></li>
       </ul>
       <span class="logo"
         ><a href="index.html">A<span class="separ">|</span>C</a></span
@@ -45,54 +45,61 @@
       <!-- <img id="bg" src="img/1.jpg" alt="" /> -->
     </div>
 
-    <section class="products first">
+    <section class="products onefirst">
       <div class="info">
         <div class="sectionhead"><h1>Favreau</h1></div>
-        
-        <div class="sectioncontent"><p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+
+        <div class="sectioncontent even">
+          <p>
+            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
+            Vestibulum ac diam sit amet quam vehicula elementum sed sit amet
+            dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at
+            sem.
           </p>
           <span class="price">149€</span>
-          <button>Add to cart<img src="img/cart_white.png" alt="cart"
-            /></button>
-        <span><a href="">Learn more</a></span>
-        
+          <label for="sizes">Choose your size</label>
+          <select name="sizes" id="sizes">
+            <option value="xs">XS</option>
+            <option value="s">S</option>
+            <option value="m">M</option>
+            <option value="l">L</option>
+          </select>
+          <button>
+            Add to cart<img src="img/cart_white.png" alt="cart" />
+          </button>
         </div>
       </div>
     </section>
 
-    <section class="products">
-      <div class="info">
-        <div class="sectionhead"> <h1>Segal</h1></div>
-       
-        <div class="sectioncontent"><p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          </p>
-          <span class="price">149€</span>
-          <button>Add to cart<img src="img/cart_white.png" alt="cart"
-            /></button>
-        <span><a href="">Learn more</a></span>
-        
-        </div>
-      </div>
+    <section class="products middle">
+      <h2>Vivamus magna justo</h2>
+      <h1>Pellentesque in ipsum <span>ipsum</span> id orci porta.</h1>
+      <p>
+        Sed porttitor lectus nibh. Sed porttitor lectus nibh. Vestibulum ante
+        ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae
+      </p>
     </section>
 
-    <section class="products">
-      <div class="info">
-        <div class="sectionhead"><h1>Lémieux</h1></div>
-        <div class="sectioncontent"><p>
-            Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem.
-          </p>
-          <span class="price">149€</span>
-          <button>Add to cart<img src="img/cart_white.png" alt="cart"
-            /></button>
-        <span><a href="">Learn more</a></span>
-        
-        </div>
-      </div>
+    <section class="products onelast">
+      <h1>Donec sollicitudin <span>molestie</span> malesuada.</h1>
+      <p>
+        Curabitur aliquet quam id dui posuere blandit. Nulla quis lorem ut
+        libero malesuada feugiat. Vivamus suscipit tortor eget felis porttitor
+        volutpat. </p><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Donec
+        rutrum congue leo eget malesuada.</p><p>Donec rutrum congue leo eget
+        malesuada. Vivamus suscipit tortor eget felis porttitor volutpat.
+        Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui.
+      </p>
+      <h1>Proin <span>eget</span> tortor risus.</h1>
+      <p>
+        Nulla porttitor accumsan tincidunt. Donec rutrum congue leo eget
+        malesuada. Vivamus suscipit tortor eget felis porttitor volutpat.
+        </p><p>Pellentesque in ipsum id orci porta dapibus. Quisque velit nisi, pretium
+        ut lacinia in, elementum id enim. Nulla quis lorem ut libero malesuada
+        feugiat
+      </p>
     </section>
-
-    
 
     <!-- jalus --->
     <footer>
