@@ -1,20 +1,41 @@
+let items_in_cart = localStorage.getItem("cartcontents") || 0;;
+
+function add(){
+   items_in_cart++;
+   // document.getElementById("no_of_prod").textContent=items_in_cart;
+   localStorage.setItem("cartcontents", items_in_cart);
+   console.log(items_in_cart);
+}
+
+
+changeBg.nr = 0;
+function changeBg() {
+    let bg_s= ["img/1.jpg", "img/3.jpg", "img/4.jpg"]
+    
+    document.getElementById("bg").src = bg_s[changeBg.nr]; 
+    
+    changeBg.nr++;
+    if(changeBg.nr >= 3){
+        changeBg.nr = 0;
+    }
+
+};
+
+
+
 window.addEventListener('load', (event) => {
     console.log('page is fully loaded');
-    let bg = document.getElementById("bg");
-   // let bg2 = document.getElementById("bg2");
-   // let bg3 = document.getElementById("bg3");
-    changeBg.nr = 0;
-    setInterval(changeBg, 5000);
-    function changeBg() {
-        let bg_s= ["img/1.jpg", "img/3.jpg", "img/4.jpg"]
+
+
+    //vahetab taustapilti seal kus saab
+    if (document.getElementById("bg"))
+        setInterval(changeBg, 5000);
+    
+    //
+    let t = document.getElementById("no_of_prod");
+    if (t) {
+        t.textContent = localStorage.getItem("cartcontents") || 0;
+        console.log(localStorage.getItem("cartcontents"))
+    }
         
-        document.getElementById("bg").src=bg_s[changeBg.nr]; 
-        changeBg.nr ++;
-        console.log(changeBg.nr);
-        if(changeBg.nr >=3){
-            changeBg.nr = 0;
-        }
-
-    };
-
 });

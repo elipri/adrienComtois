@@ -351,7 +351,17 @@ section:nth-of-type(4) {
 
 /*Lisan kujundust:**/
 
+<<<<<<< HEAD
 .content_text {
+=======
+#about_team{
+  display: block;
+  width: 60%;
+  
+}
+
+  .content_text {
+>>>>>>> 81d87cad245a78413a4d60f33606f882ccf427b5
   margin-top: 15vh;
   display: block;
   width: 50%;
@@ -371,8 +381,22 @@ section:nth-of-type(4) {
   font-size: 2em;
   line-height: 150%;
 }
+<<<<<<< HEAD
 .content_text p {
   font-family: "Montserrat", sans-serif;
+=======
+.content_text h3 {
+  font-family: Playfair Display;
+  font-weight: bold;
+  font-size: 1.5em;
+  line-height: 150%;
+  letter-spacing: 0.03em;
+  color: #3C3C3C;
+}
+
+.content_text p{
+  font-family: 'Montserrat', sans-serif;
+>>>>>>> 81d87cad245a78413a4d60f33606f882ccf427b5
   font-weight: normal;
   font-style: normal;
   font-size: 18px;
