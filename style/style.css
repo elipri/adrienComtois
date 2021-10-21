@@ -397,6 +397,60 @@ section:nth-of-type(4) {
   font-size: 18px;
   color: #000000;
   line-height: 150%;
+<<<<<<< HEAD
+=======
+  }
+.content_cart {
+    margin-top: 15vh;
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    
+  }
+  .content_cart h3 {
+    font-family: Playfair Display;
+    font-weight: bold;
+    font-size: 1.5em;
+    line-height: 150%;
+    letter-spacing: 0.03em;
+    color: #3C3C3C;
+    text-align: center;
+  }
+#no_of_prod {
+  font-size: 1.75em;
+  color: orange;
+}
+#cart_proceed{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+.checkout{
+  background-color: orange;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  margin: 5px 5px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.checkout a{
+  color: white;
+}
+
+.small_cart{
+  margin-left: 5px;
+  font-size: 1em !important;
+  color: #d46220 !important;
+>>>>>>> 18554d3950d8ffae919df777ab0fe666d9f6c567
 }
 
 .sectioncontent button {

@@ -31,7 +31,7 @@ window.addEventListener('load', (event) => {
     if (document.getElementById("bg"))
         setInterval(changeBg, 5000);
     
-    //
+    //töötab veebis, aga mitte kohalikus masinas
     let t = document.getElementById("no_of_prod");
     if (t) {
         t.textContent = localStorage.getItem("cartcontents") || 0;
