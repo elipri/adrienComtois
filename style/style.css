@@ -185,15 +185,20 @@ h2 {
 
 footer {
   width: 100%;
-  height: 7.4%;
-  position: fixed;
-  bottom: 0;
+  /* height: 7.4%;
+  position: fixed; */
+  height: 7.4vh;
   display: flex;
   text-align: center;
   align-items: center;
   /* Light Grey */
   color: #e9e9e9;
   background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.firstpage {
+    position: absolute;
+  bottom: 0;
 }
 
 footer .social {
@@ -209,7 +214,8 @@ footer .social img {
 }
 
 footer .copyright {
-  position: fixed;
+  /* position: fixed; */
+  position: absolute;
   left: 50%;
   transform: translateX(-50%);
   font-family: Montserrat;
@@ -221,13 +227,42 @@ footer .copyright {
 }
 
 /*Products*/
-
 .products {
-    height: 1000px;
+    height: 100vh;
+    width: 100%;  
+    display: flex;
+    padding-left: 13%;
+    flex-direction: column;
+    justify-content: center;
+    left: 13%;
 }
 
-.products > .first {
-    position: absolute;
-    top: 80px;
-    background-color: orange;
+section:first-of-type {
+    /* margin-top: 80px; */
+    padding-top: 4.7%;
+    /* background: #C4C8CB; */
 }
+
+section:nth-of-type(2) {
+    background: #315B74;
+}
+
+section:nth-of-type(3) {
+    background: #8C7968
+}
+
+section:nth-of-type(4) {
+    background: #A6A5AB;
+}
+
+.info {
+    height: 63.7%;
+    width: 34.7%;
+    background: #F8F8F8;
+    box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.25);
+}
+
+.info h1 {
+    background: #E9E9E9;
+}
+
