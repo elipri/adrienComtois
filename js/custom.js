@@ -5,6 +5,7 @@ function add(){
    // document.getElementById("no_of_prod").textContent=items_in_cart;
    localStorage.setItem("cartcontents", items_in_cart);
    console.log(items_in_cart);
+   updateCart()
 }
 
 
@@ -19,12 +20,21 @@ function changeBg() {
         changeBg.nr = 0;
     }
 
-};
+}
+
 function empty(){
     localStorage.setItem("cartcontents", 0);
     location.reload();
 }
 
+
+function updateCart(){
+    let t = document.getElementById("no_of_prod");
+    if (t) {
+        t.textContent = localStorage.getItem("cartcontents") || 0;
+        console.log(localStorage.getItem("cartcontents"))
+    }
+}
 
 
 window.addEventListener('load', (event) => {
@@ -35,11 +45,6 @@ window.addEventListener('load', (event) => {
     if (document.getElementById("bg"))
         setInterval(changeBg, 5000);
     
-    //töötab veebis, aga mitte kohalikus masinas
-    let t = document.getElementById("no_of_prod");
-    if (t) {
-        t.textContent = localStorage.getItem("cartcontents") || 0;
-        console.log(localStorage.getItem("cartcontents"))
-    }
+    updateCart()
         
 });
