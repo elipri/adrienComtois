@@ -397,8 +397,6 @@ section:nth-of-type(4) {
   font-size: 18px;
   color: #000000;
   line-height: 150%;
-<<<<<<< HEAD
-=======
   }
 .content_cart {
     margin-top: 15vh;
@@ -450,7 +448,6 @@ section:nth-of-type(4) {
   margin-left: 5px;
   font-size: 1em !important;
   color: #d46220 !important;
->>>>>>> 18554d3950d8ffae919df777ab0fe666d9f6c567
 }
 
 .sectioncontent button {
