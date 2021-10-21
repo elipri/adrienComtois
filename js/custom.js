@@ -20,6 +20,10 @@ function changeBg() {
     }
 
 };
+function empty(){
+    localStorage.setItem("cartcontents", 0);
+    location.reload();
+}
 
 
 
