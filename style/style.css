@@ -1,6 +1,6 @@
 body {
   background: #c4c9cc;
-  font-size: 54%;
+ /* font-size: 54%;**/
 }
 
 a {
@@ -31,7 +31,7 @@ a {
   mask-image: linear-gradient(to left, black 50%, transparent 100%);
 }
 
-.backgfround:after {
+/*.background:after {
   position: absolute;
   content: "";
   height: 100%;
@@ -41,9 +41,9 @@ a {
   background: linear-gradient(
     to bottom,
     rgba(255, 0, 0, 0) 0%,
-    rgba(255, 0, 0, 0.65) 100%
+    rgba(255, 0, 0, 0) 100%
   );
-}
+}**/
 
 ul {
   display: flex;
@@ -162,13 +162,13 @@ h2 {
 }
 
 .content h1 {
-  font-size: 4em;
+  font-size: 3.556em;
   font-weight: normal;
 }
 
 .content h2 {
   font-weight: bold;
-  font-size: 2.25em;
+  font-size: 2em;
 }
 
 .content span {
@@ -354,6 +354,41 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 color: #3C3C3C;
 }
 
+
+/*Lisan kujundust:**/
+
+  .content_text {
+  margin-top: 15vh;
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+.content_text h1 {
+  font-size: 3.556em;
+  font-weight: normal;
+  color: #3C3C3C;
+  line-height: 150%;
+}
+
+.content_text h2 {
+  font-weight: bold;
+  font-size: 2em;
+  line-height: 150%;
+}
+.content_text p{
+  font-family: 'Montserrat', sans-serif;
+  font-weight: normal;
+  font-style: normal;
+  font-size: 18px;
+  color: #000000;
+  line-height: 150%;
+  }
+
+  
+
 .sectioncontent button {
   width: 58%;
   height: 9.5%;
@@ -391,3 +426,4 @@ font-feature-settings: 'pnum' on, 'lnum' on;
 .sectioncontent span:last-of-type {
     padding-bottom: 10%;
 }
+
