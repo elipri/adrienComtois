@@ -8,6 +8,10 @@ a {
   color: black;
 }
 
+.active {
+  color: orange;
+}
+
 .background {
   position: fixed;
   z-index: -1;
@@ -197,7 +201,7 @@ footer {
 }
 
 .firstpage {
-    position: absolute;
+  position: absolute;
   bottom: 0;
 }
 
@@ -228,41 +232,60 @@ footer .copyright {
 
 /*Products*/
 .products {
-    height: 100vh;
-    width: 100%;  
-    display: flex;
-    padding-left: 13%;
-    flex-direction: column;
-    justify-content: center;
-    left: 13%;
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
 
-section:first-of-type {
-    /* margin-top: 80px; */
-    padding-top: 4.7%;
-    /* background: #C4C8CB; */
+.first {
+  /* margin-top: 80px; */
+  padding-left: 13%;
+  /* background: #C4C8CB; */
 }
 
 section:nth-of-type(2) {
-    background: #315B74;
+  padding-left: 52.5%;
+  background: #315b74;
 }
 
 section:nth-of-type(3) {
-    background: #8C7968
+  background: #8c7968;
+  padding-left: 13%;
 }
 
 section:nth-of-type(4) {
-    background: #A6A5AB;
+  padding-left: 52.5%;
+  background: #a6a5ab;
 }
 
 .info {
-    height: 63.7%;
-    width: 34.7%;
-    background: #F8F8F8;
-    box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.25);
+  height: 63.7%;
+  width: 37%;
+  background: #f8f8f8;
+  box-shadow: 4px 4px 10px -2px rgba(0, 0, 0, 0.25);
 }
 
 .info h1 {
-    background: #E9E9E9;
+  background: #e9e9e9;
+  height: 18.5%;
+  font-family: Playfair Display;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 4em;
+  letter-spacing: 0.03em;
+  font-feature-settings: "pnum" on, "lnum" on;
+
+  /* Charcoal */
+
+  color: #3c3c3c;
 }
 
+.info span {
+  display: block;
+}
+
+.info button {
+    background-color: orange;
+}
