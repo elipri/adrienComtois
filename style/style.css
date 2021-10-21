@@ -247,7 +247,7 @@ footer .copyright {
   padding-left: 13%;
   /* background: #C4C8CB; */
   background-image: linear-gradient(to right, #C4C8CB 50%, transparent 100%),
-  url('../img/s1.jpg');
+  url('../img/s1.png');
   /* -webkit-mask-image: linear-gradient(to right, black 50%, transparent 100%);
   mask-image: linear-gradient(to left, black 50%, transparent 100%); */
   background-size: auto 100%;
@@ -260,7 +260,7 @@ section:nth-of-type(2) {
   /* background-image: linear-gradient(to left, rgba(255,255,0,0.5), rgba(0,0,255,1)),
   url('../img/1.jpg'); */
   background-image: linear-gradient(to left, #315b74 50%, transparent 100%),
-  url('../img/s2.jpg');
+  url('../img/s2.png');
   background-size: auto 100%;
   background-position-x: left;
 }
