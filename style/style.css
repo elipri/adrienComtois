@@ -246,7 +246,7 @@ footer .copyright {
   /* margin-top: 80px; */
   padding-left: 13%;
   /* background: #C4C8CB; */
-  background-image: linear-gradient(to right, #C4C8CB 50%, transparent 100%),
+  background-image: 
   url('../img/s1.png');
   /* -webkit-mask-image: linear-gradient(to right, black 50%, transparent 100%);
   mask-image: linear-gradient(to left, black 50%, transparent 100%); */
@@ -259,20 +259,31 @@ section:nth-of-type(2) {
   /* background: #315b74; */
   /* background-image: linear-gradient(to left, rgba(255,255,0,0.5), rgba(0,0,255,1)),
   url('../img/1.jpg'); */
-  background-image: linear-gradient(to left, #315b74 50%, transparent 100%),
+  background-image: 
   url('../img/s2.png');
   background-size: auto 100%;
   background-position-x: left;
 }
 
 section:nth-of-type(3) {
-  background: #8c7968;
+  /* background: #8c7968; */
   padding-left: 13%;
+  /* background: #C4C8CB; */
+  background-image: 
+  url('../img/s3.png');
+  /* -webkit-mask-image: linear-gradient(to right, black 50%, transparent 100%);
+  mask-image: linear-gradient(to left, black 50%, transparent 100%); */
+  background-size: auto 100%;
+  background-position-x: right;
 }
 
 section:nth-of-type(4) {
   padding-left: 52.5%;
-  background: #a6a5ab;
+  /* background: #a6a5ab; */
+  background-image: 
+  url('../img/s4.png');
+  background-size: auto 100%;
+  background-position-x: left;
 }
 
 .info {
